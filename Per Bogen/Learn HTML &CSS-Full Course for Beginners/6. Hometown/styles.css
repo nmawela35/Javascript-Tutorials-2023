@@ -1,0 +1,73 @@
+
+body{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Orbitron', sans-serif;
+  
+}
+
+#header{
+  margin: 0;
+  background-image: url("images/makhado.jpg");
+  height: 200px;
+  width: auto;
+  padding: 10px 0 40px 0;
+}
+
+#makhado{
+  height: 100px;
+  width: 400px;
+  margin-bottom: 0;
+}
+
+.places{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+}
+
+.markets{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#fruits, #center, #map{
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#chris{
+  width: 150px;
+  height: 100px;
+  margin-right: 8px;
+}
+
+h2,h4{
+  text-shadow: -2px 0 3px;
+}
+
+.business-card{
+  width: 350px;
+	margin: 0 auto;
+  border-color: aqua;
+  background-color:rgb(165, 162, 162);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 6px solid blue;
+  border-radius: 5px;
+  margin-top: 10px;
+ 
+}
+
+p{
+  font-family: 'Orbitron', sans-serif;
+}

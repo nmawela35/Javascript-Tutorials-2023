@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Functions</title>
+</head>
+<body>
+
+  <script>
+     
+let array1 = [
+      'make dinner',
+      'wash dishes',
+      'watch youtube'
+    ]
+    
+    //Another to loop through an array.
+//forEach don't have continue.
+// Do not use break here, better use it on regular loop
+
+array1.forEach((value, index) => {
+  if (value === 'wash dishes'){          //will skip this and continue
+    return;
+  }
+	console.log(index);
+	console.log(value);
+});
+
+  </script>
+</body>
+</html>

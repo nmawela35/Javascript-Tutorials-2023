@@ -1,0 +1,9 @@
+body{
+    background:whitesmoke;
+    color: gray;
+    font-size: 25px;
+    font-weight: 450; /*lighter, dark,bold */
+    text-align:center; /*left, centre, right */
+    margin-top: 5px;
+}
+

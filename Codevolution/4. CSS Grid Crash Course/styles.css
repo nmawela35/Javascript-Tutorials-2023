@@ -1,0 +1,77 @@
+body {
+	margin: 20px;
+	background-color: whitesmoke;
+	border: solid black;
+}
+.container {
+	border: 6px solid black;
+	display: grid;
+	grid-template: repeat(3, 200px) / repeat(3, 200px);
+	/* 	height: 800px; */
+	/* grid-template-columns: 200px 200px 200px; */
+	/* grid-template-columns: repeat(3,200px); */
+	/* grid-template-columns: 1fr 2fr 1fr; */
+	/* grid-template-columns: repeat(3,minmax(200px,1fr)); */
+	/*  grid-template-rows: 100px 150px 200px; */
+	/* grid-template-rows: repeat(3,100px); */
+	/* grid-template-rows: repeat(3,100px)100px; */
+	/* grid-template-rows: repeat(3, 1fr); */
+	/*   column-gap: 20px;
+    row-gap: 20px; */
+	/* gap: 20px 40px; */
+	/* 
+        justify-items: center;
+        align-items: center;
+    */
+	/* place-items: start end; */
+	/*     justify-content: end;
+    align-content: end; */
+	/*  place-content: center; */
+	/* 	grid-auto-flow: column;
+        grid-auto-columns: 100px;
+        grid-auto-rows: 200px;
+    */
+}
+.grid-item {
+	color: blue;
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-align: center;
+}
+.item-1 {
+	background-color: #b4bf35;
+	/*     grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: span 2; */
+	/* grid-column: 1 / span 2;
+	grid-row: 2 / span 2; */
+}
+.item-2 {
+	background-color: #b95f21;
+    justify-self: start;
+	
+} 
+.item-3 {
+	background-color: #1c4c56;
+	align-self: end;
+}
+.item-4 {
+	background-color: red;
+    place-self: start center;
+}
+.item-5 {
+	background-color: #6b0803;
+}
+.item-6 {
+	background-color: #cfb276;
+}
+.item-7 {
+	background-color: #b95f21;
+}
+.item-8 {
+	background-color: #01243a;
+}
+.item-9 {
+	background-color: #aad041;
+}

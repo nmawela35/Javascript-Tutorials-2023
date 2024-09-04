@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Objects</title>
+	</head>
+	<body>
+		<script>
+			/* DOT NOTATION    
+const product = {
+      name:'socks',
+      price:1090
+    }
+    console.log(product)
+    console.log(product.name)
+    console.log(product.price)
+
+    product.newprop =86;
+    console.log(product) */
+
+			/*     const product2 = {
+      name:'shirt',
+      ['delivery-time']:'2 days',
+      rating:{
+        stars:4.5,
+        count:87
+      },
+      fun: function function1() {
+        console.log('function inside an object');
+      }
+    };
+    console.log(product2['name']);
+    console.log(product2['delivery-time']);
+    
+    console.log(product2);
+    console.log(product2.rating.stars);
+    console.log(product2.fun()); //function are also values
+    product2.fun();
+
+    const jsonObject = JSON.stringify(product2);
+    console.log(jsonObject);
+    console.log(typeof jsonObject);
+
+   const jsonString = JSON.parse(jsonObject);
+   console.log(jsonString);
+    console.log(typeof jsonString);
+ */
+			const object4 = {
+				message: 'Good day',
+        price:799
+			};
+			const { message, price } = object4; /* const message = object4.message; */
+			console.log(message);
+      console.log(price);
+
+      const object5 = {
+        // message:message
+        message,
+/*         method: function function1(){
+          console.log('method');
+        } */
+        method(){
+          console.log('method2');
+        }
+      }
+      console.log(object5 );
+      object5.method();
+		</script>
+	</body>
+</html>
