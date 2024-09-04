@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>Javascript Events</h1>
+    <button>Don't Press Me!</button>
+    
+    <script>
+        var btn = document.querySelector('button');
+
+        function ouch()
+        {
+            alert("Don't press me");
+        }
+        //btn.onclick = ouch(); //assigned a function to button onClick event, will run without on click event
+        //btn.onclick = ouch; 
+
+        //use Anonymous functions
+        btn.onclick = function(){
+            alert("I said don't press me");
+        }
+        
+    </script>
+</body>
+</html>

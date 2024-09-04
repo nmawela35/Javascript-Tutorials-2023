@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Scope</title>
+</head>
+<body>
+    <h1>Testing scope in Javascript</h1>
+    <script>
+        var aVariable = "This is in a global scope";
+
+        function testScope(){
+           "use strict"; 
+           var  aVariable = "This is in a local scope";
+           console.log(aVariable);
+        }
+        testScope();
+        console.log(aVariable);
+
+    </script>
+
+</body>
+</html>

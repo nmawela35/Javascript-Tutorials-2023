@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByClassName</title>
+</head>
+<body>
+    <h1>Dom examples</h1>
+    <p class=" special">Here is a paragraph</p>
+    <p>Here is another paragraph</p>
+    <p class=" special">Here is one more paragraph</p>
+    <script>
+        var myClass = document.getElementsByClassName('special');
+        myClass[0].style.color = "red";
+        myClass[1].style.color = "blue";
+
+
+    </script>
+    
+</head>
+</body>
+</html>
